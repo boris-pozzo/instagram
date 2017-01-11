@@ -1,0 +1,362 @@
+@font-face {
+  font-family: "Proxi";
+  src: url("./Proxima-Nova.otf");
+}
+
+body{
+	font-family: "Proxi";
+	font-style: normal;
+	font-weight: 300;
+    margin: 0;
+    padding: 0;
+    color: #5A5A5A;
+}
+
+h1{
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+/*Header*/
+
+#search{
+    width: 189px;
+    height: 21px;
+    border-radius: 3px;
+    border: solid 1px #dbdbdb;
+    position: relative;
+    
+    top: 17px;
+    background-color: #FAFAFA;
+    padding: 3px 10px 3px 26px;
+    cursor: text;
+}
+
+.input{
+    width: 89%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    border: none;
+    outline: none;
+    background-color: wheat; /*#FAFAFA*/
+}
+
+.fa-search{
+	color: #A5A7AA;
+	font-size: 12px;
+    position: relative;
+    top: 2px;
+    left: 55px;
+}
+
+#toggle{
+	width: 100%;
+    height: 109%;
+    position: relative;
+    top: -23px;
+    background-color: #FAFAFA;
+}
+
+.recherche-fixe{
+	position: relative;
+    left: 59px;
+    top: 2px;
+    font-size: 13px;
+    color: #999999;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #DBDBDB;
+    padding-bottom: 25px;
+}
+
+.info-profil{
+    position: relative;
+    display: flex;
+    top: 17px;
+    margin-right: 29px;
+}
+
+.logo{
+    top: 17px;
+    position: relative;
+    margin-left: 29px;
+}
+
+.logo-image{
+    width: 176px;
+}
+
+.infos{
+    width: 32px;
+}
+
+.espace{
+    margin-right: 25px;
+}
+
+/*Header-container*/
+
+.container{
+    padding: 60px 150px 0px 150px;
+    background-color: #FAFAFA;
+}
+
+.photo-profil{
+    width: 290px;
+    height: 152px;
+    display: flex;
+    justify-content: center;
+}
+.president{
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+}
+
+.container-header{
+    display: flex;
+    margin-left: 10px;
+}
+
+.texte-presentation{
+    height: 152px;
+    width: 650px;    
+}
+
+.texte-presentation-header{
+    width: 610px;
+    height: 33px;
+    display: flex;
+}
+
+.check{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.subscribe{
+    position: relative;
+    padding: 4px 10px;
+    align-self: center;
+    font-size: 17px;
+    top: 3px;
+    margin-left: 18px;
+    color: #3897F0;
+    border: 1px solid #3897F0;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.other-proposition{
+    padding: 5px 1px 0px 7px;
+    align-self: center;
+    width: 24px;
+    height: 23px;
+    border: 1px solid #3897F0;
+    margin-top: 7px;
+    border-radius: 3px;
+    margin-left: 4px;
+}
+
+.fleche{
+    width: 15px;
+    height: 14px;
+}
+
+.points3{
+    width: 30px;
+    height: 15px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.textes{
+    display: flex;
+    margin-top: 10px;
+    margin-top: 22px;
+    justify-content: space-between;
+    width: 380px;
+    font-size: 17px;
+}
+
+.color-black{
+    color: black;
+    font-weight: bold;
+}
+
+.texte-last{
+    margin-top: 22px;
+    font-size: 17px;
+}
+
+.texte-last-bold{
+    color: #003569;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+/*Pictures*/
+
+.pictures{
+    width: 950px;
+    margin-left: 14px;
+    margin-top: 50px;
+}
+
+.picture{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.resize{
+   width: 293px;
+   height: 293px;
+   overflow: hidden;
+   margin-top: 25px;
+   display: flex;
+}
+
+.item{
+    width: 100%;
+    height: 100%;
+}
+
+/*charger la suite*/
+
+.more-pictures-block{
+    width: 100%;
+}
+
+.more-pictures{
+    
+}
+
+/*modal*/
+
+.overlay{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,.75);
+    position: fixed;
+    display: none;
+    z-index: 99;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    width: 74%;
+    height: 82%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+}
+
+.modal-left{
+    width: 65%;
+    height: 100%;
+}
+
+.image-selector{
+    width: 100%;
+    height: 100%;
+}
+
+.fa-times{
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: white;
+    /*font-size:12px;*/
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.modal-right{
+    width: 35%;
+    height: 100%;
+}
+
+.modal-right-container{
+    width: 287px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-right-header{
+    padding: 20px 0px;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+}
+
+.little-img{
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-self: center;
+    margin-right: 10px;
+}
+
+.btn-modal{
+    margin-left: 46px;
+    top:0;
+}
+
+.modal-right-content-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comments{
+    height: 353px;
+}
+
+.add-comment{
+    min-height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #efefef;
+}
+
+.fa-heart-o{
+    font-size: 24px;
+}
+
+.input-modal{
+    outline: none;
+    width: 200px;
+    font-size: 15px;
+    line-height: 18px;
+    border: none;
+}
+
+.points3-modal{
+    margin-top: 0;
+}
+
+ul{
+    margin: 0;
+}
+
+li{
+    margin: 4px 0px;
+}
+
+.comment-modal{
+    list-style: none;
+    margin-left: -39px;
+}

@@ -1,2 +1,2 @@
 # instagram
-Obama Instagram clone (not responsive)
+Obama Instagram clone (not responsive).
